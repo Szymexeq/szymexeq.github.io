@@ -1,0 +1,75 @@
+header {
+	background-color: rgb(149, 233, 177);
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 50px;
+}
+h1 {
+	color: rgb(255, 102, 0);
+	font-weight: bold;
+	font-size: 60px;
+}
+.lewy {
+	float: left;
+	width: 30%;
+	height: 700px;
+	background-color: rgb(190, 189, 189);
+	display: flex;
+}
+img {
+	width: 40%;
+	height: 700px;
+	float: left;
+	cursor: pointer;
+}
+.prawy {
+	float: left;
+	width: 30%;
+	height: 700px;
+	background-color: rgb(190, 189, 189);
+	display: flex;
+}
+footer {
+	background-color: rgb(100, 245, 81);
+	height: 60px;
+	width: 100%;
+	float: left;
+	text-align: right;
+	font-size: 30px;
+	color: aliceblue;
+}
+table {
+	margin: 0 auto;
+	height: 100px;
+	border: solid white 1px;
+	margin-top: 200px;
+	width: 250px;
+	text-align: center;
+	font-size: 20px;
+}
+th {
+	border: solid white 1px;
+	background-color: rgb(19, 194, 42);
+}
+td {
+	border: solid white 1px;
+	background-color: rgb(126, 231, 140);
+}
+.info {
+	margin: 0 auto;
+	margin-top: 200px;
+	width: 300px;
+	background-color: white;
+	text-align: center;
+	border: 2px solid brown;
+	height: 300px;
+	font-size: 30px;
+	cursor: help;
+}
+table,
+tr,
+td {
+	cursor: crosshair;
+}
