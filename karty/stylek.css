@@ -1,0 +1,47 @@
+#as {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	z-index: 1;
+}
+#krol {
+	position: absolute;
+	left: 125px;
+	top: 125px;
+	z-index: 2;
+}
+#dama {
+	position: absolute;
+	left: 150px;
+	top: 150px;
+	z-index: 3;
+}
+#walet {
+	position: absolute;
+	left: 175px;
+	top: 175px;
+	z-index: 4;
+}
+#rew {
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	z-index: 5;
+}
+#as:active {
+	z-index: 10;
+}
+#krol:active {
+	z-index: 10;
+}
+#dama:active {
+	z-index: 10;
+}
+#walet:active {
+	z-index: 10;
+}
+
+img {
+	height: 400px;
+	width: 300px;
+}
