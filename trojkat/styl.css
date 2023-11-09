@@ -1,0 +1,116 @@
+.trojkat {
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 200px solid blue;
+}
+body {
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	flex-direction: row;
+	margin: 0;
+}
+.main {
+	margin-right: 10px;
+	margin-right: 10px;
+	background-color: aqua;
+	width: 30%;
+	height: 40%;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.common {
+	float: left;
+	border: 1px solid white;
+	height: 19px;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.bottom {
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bottom2 {
+	width: 100%;
+	height: 80%;
+}
+.help {
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.kwiatek {
+	background-color: rgb(232, 255, 127);
+	width: 17%;
+	height: 30%;
+	border-radius: 100%;
+	z-index: 1;
+	position: relative;
+	left: 42%;
+	top: 32%;
+}
+.platek1 {
+	background-color: rgb(255, 127, 127);
+	width: 17%;
+	height: 30%;
+	border-radius: 100%;
+	z-index: 2;
+	position: relative;
+	opacity: 100%;
+	position: relative;
+	left: 42%;
+	top: -25%;
+}
+.platek2 {
+	background-color: rgb(255, 127, 127);
+	width: 17%;
+	height: 30%;
+	border-radius: 100%;
+	z-index: 2;
+	position: relative;
+	left: 52%;
+	top: -35%;
+}
+.platek3 {
+	background-color: rgb(255, 127, 127);
+	width: 17%;
+	height: 30%;
+	border-radius: 100%;
+	z-index: 2;
+	position: relative;
+	left: 45%;
+	top: -43%;
+}
+.platek4 {
+	background-color: rgb(255, 127, 127);
+	width: 17%;
+	height: 30%;
+	border-radius: 100%;
+	z-index: 2;
+	position: relative;
+	left: 32%;
+	top: -83%;
+}
+.platek5 {
+	background-color: rgb(255, 127, 127);
+	width: 17%;
+	height: 30%;
+	border-radius: 100%;
+	z-index: 2;
+	position: relative;
+	left: 30%;
+	top: -139%;
+}
